@@ -1,0 +1,530 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(203,215,206,1) 50%, rgba(224,96,49,1) 75%, rgba(209,58,37,1) 100%);
+}
+
+header{
+    margin-bottom: 50px;
+}
+
+.menu{
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5551470588235294) 31%, rgba(0,0,0,1) 100%);
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.logo{
+    margin: 20px;
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    left: 60px;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+}
+
+nav a:hover{
+    color: #D13A25;
+    cursor: pointer;
+}
+
+nav li{
+    display: inline;
+    font-size: 30px;
+    font-family: 'Urbanist', sans-serif;
+    margin-left: 20px;
+    
+}
+
+.home{
+    width: 75%;
+    margin: 250px auto 0 auto;
+    position: relative;
+    height: 400px;
+    background-color: #2C2C2C;
+}
+
+.text-home{
+    width: 50%;
+    display: inline;
+    position: absolute;
+    color: white;
+    left: 5%;
+    top: 20%;
+}
+
+.nombre{
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Unbounded', cursive;
+}
+
+.intro{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.75;
+}
+
+.logo2{
+    width: 30%;
+    display: inline;
+    position: absolute;
+    right: 8%;
+    top: 20%;
+}
+
+.muestra{
+    width: 70%;
+    position: relative;
+    margin: 50px auto;
+    height: 500px;
+}
+
+.pokemon{
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
+#about-ref{
+    position: absolute;
+    display: inline;
+    bottom: 50%;
+    z-index: 0;
+}
+
+.about{
+    background: white;
+    width: 75%;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.foto{
+    width: 30%;
+    display: inline;
+    position: absolute;
+    left: 8%;
+    top: 15%;
+}
+
+.about-text{
+    display: inline;
+    position: absolute;
+    width: 50%;
+    right: 8%;
+    top: 10%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    display: block;
+    font-family: 'Unbounded', cursive;
+}
+
+.about-info{
+    text-align: justify;
+    position: absolute;
+    line-height: 1.75;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#skill-ref{
+    position: absolute;
+    display: inline;
+    bottom: 40%;
+    z-index: 0;
+}
+
+.skills{
+    width: 75%;
+    height: 600px;
+    margin: 60px auto 40px;
+    position: relative;
+}
+
+.titulos, .skills h2{
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Unbounded', cursive;
+    margin-bottom: 70px;
+}
+
+.titulos{
+    margin-bottom: 0px;
+}
+
+.skill{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    box-sizing: border-box;
+    height: 400px;
+    transition: all 0.3s;
+    border-radius: 20px;
+    border: 4px solid transparent;
+    position: relative;
+    margin: 10px;
+}
+
+.skill:hover{
+    border: 4px solid white;
+}
+
+.skill h3{
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+    font-family: 'Unbounded', cursive;
+    margin: 30px auto 10px;
+}
+
+.revit-logo, .max-logo, .excel-logo{
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+}
+
+.revit-logo{
+    width: 150px;
+    left: 30%;
+}
+
+.max-logo{
+    width: 125px;
+    left: 30%;
+}
+
+.excel-logo{
+    width: 150px;
+    left: 25%;
+}
+
+.skill p{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin: 10px auto;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 5%;
+}
+
+#proyect-ref{
+    position: absolute;
+    display: inline;
+    bottom: 40%;
+    z-index: 0;
+}
+
+.proyect{
+    width: 75%;
+    margin: 0 auto 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card{
+    border-radius: 25px;
+    background-color: #CBD7CE;
+}
+
+.image-content, .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 25px 25px 0 25px;
+}
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.card-image, .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 25px;
+}
+
+.card-img2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 25px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.card-img2:hover{
+    opacity: 1;
+}
+
+.name{
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    color: #000000;
+    font-weight: 500;
+    margin: 10px auto;
+}
+
+.description{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #2C2C2C;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.more{
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px 16px;
+    background-color: #E06031;
+    border-radius: 6px;
+    margin: 15px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.more:hover{
+    background: #D13A25;
+}
+
+.swiper-navBtn{
+    color: #CBD7CE;
+    transition: 0.6s;
+}
+
+.swiper-navBtn:hover{
+    color: #2C2C2C;
+}
+
+.swiper-navBtn::before, .swiper-navBtn::after{
+    font-size: 40px;
+}
+
+.swiper-button-next{
+    right: 0;
+}
+
+.swiper-button-prev{
+    left: 0;
+}
+
+.swiper-pagination-bullet{
+    background-color: #CBD7CE;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #2C2C2C;
+    opacity: 1;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.pie{
+    width: 200px;
+}
+
+.copyright{
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .menu{
+        height: 250px;
+    }
+
+    header h1{
+        display: block;
+        text-align: center;
+    }
+
+    .logo{
+        position: unset;
+        width: 150px;
+    }
+
+    nav{
+        position: unset;
+        display: block;
+        text-align: center;
+    }
+
+    .titulos, .skills h2{
+        font-size: 40px;
+    }
+
+    .home{
+        padding: 20px;
+    }
+
+    .text-home{
+        position: unset;
+    }
+
+    .nombre{
+        font-size: 30px;
+    }
+
+    .intro{
+        font-size: 18px;
+    }
+
+    .logo2{
+        position: unset;
+        display: block;
+        width: 60%;
+        margin: 10px auto;
+    }
+
+    .muestra{
+        height: 250px;
+    }
+
+    #about-ref{
+        top: 20%;
+    }
+
+    .about{
+        padding: 20px;
+        height: auto;
+    }
+
+    .foto{
+        display: block;
+        position: unset;
+        margin: 15px auto;
+        width: 60%;
+    }
+    
+    .about-text{
+        position: unset;
+    }
+    
+    .titulo{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    
+    .about-info{
+        font-size: 13px;
+        position: unset;
+        line-height: 1.25;
+    }
+
+    #skill-ref{
+        top: 0%;
+    }
+
+    .skills{
+        height: auto;
+    }
+
+    .skills h2{
+        margin-bottom: 0px;
+    }
+
+    .skill{
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    #proyect-ref{
+        top: 0%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .swiper-navBtn{
+        display: none;
+    }
+
+    .slide-content{
+        margin: 0 10px;
+    }
+}
